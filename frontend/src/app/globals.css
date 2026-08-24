@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.font-instrument {
+  font-family: 'Instrument Serif', serif;
+}
+
+.ease-entrance {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ease-overlay {
+  transition-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+}
