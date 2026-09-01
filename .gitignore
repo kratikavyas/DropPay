@@ -38,3 +38,7 @@ contracts/**/target/
 *.zip
 *.tar.gz
 *.log
+
+# Local tunnels and custom scripts
+tunnel_keeper.sh
+*.sh
